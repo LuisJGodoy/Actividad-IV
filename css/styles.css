@@ -1,0 +1,252 @@
+nta
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+}
+
+html {
+    box-sizing: border-box;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+} 
+
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: " ";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+
+.contenedor{
+
+    margin: 0 auto;
+
+}
+
+.seccion{
+
+    margin: 30px;
+    
+}
+
+.separacion-texto{
+
+    margin: 30px 0;
+
+}
+
+
+.home{
+    
+    background-color: #e1e1e1;
+    height: auto;
+    
+}
+
+.titulo{
+    color: chartreuse;
+    margin: 0;
+    float :left;
+    font-size: 50px;
+    padding: 30px;
+   
+}
+
+@media(max-width:768px){
+
+
+    .titulo{
+
+        float: none;
+        text-align: center;
+
+    }
+
+}
+
+.navegacion{
+    float: right;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.navegacion a{
+    padding: 20px;
+    text-decoration: none;
+}
+
+@media(max-width:768px){
+
+    .navegacion{
+
+        text-align: center;
+        float: none;
+        padding: 0px;
+    }
+
+    .navegacion a{
+
+        display: block;
+
+    }
+
+
+}
+
+.galeria{
+
+width: 60%;
+margin-left: 210px;
+
+}
+
+
+@media(max-width:768px){
+
+    .galeria{
+
+
+        margin-left: 100px;
+
+    }
+
+
+}
+
+.carousel-caption{
+    color: lightskyblue;
+}
+
+.carousel-caption h3{
+    background-color: black;
+}
+
+
+.pagina{
+    border-bottom: 3px solid #e1e1e1;
+    padding: 3rem 0;
+    font-size: 4rem;
+    color: black;
+    text-align: center;
+
+}
+
+.pagina h1{
+    margin-left: 300px;
+}
+
+
+
+.noticias img{
+    float: left;
+    width: 30%;
+}
+
+
+@media(max-width:768px){
+
+    .noticias img{
+
+        float: none;
+
+    }
+
+}
+
+.noticias p{
+    text-align: center;
+    width: 100%;
+    margin: 5px;
+    font-size: 24px;
+
+}
+
+@media(max-width:768px){
+
+    .noticias p{
+
+
+        margin-top: 20px;
+
+    }
+
+
+}
+
+
+.about{
+    float: left;
+    width: 45%;
+
+}
+
+.contactanos{
+    float: right;
+    width: 45%;
+    text-align: center;
+}
+
+
+@media(max-width:768px){
+
+    .contactanos{
+
+        float: none;
+        text-align: center;
+    }
+
+    .about{
+
+        float: none;
+        text-align: center;
+    }
+
+
+}
+
+#myCarousel2{
+    width: 50%;
+    margin-left: 250px;
+}
+
+
+@media(max-width:768px){
+
+
+    #myCarousel2{
+
+        margin-left: 150px;
+
+
+    }
+
+}
+
+.tienda{
+    text-align: center;
+}
+
+.footer {
+    background-color: purple;
+    color: black;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
